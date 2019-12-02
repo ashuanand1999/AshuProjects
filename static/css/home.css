@@ -1,0 +1,66 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/image2.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    padding-top: 70px;
+}
+
+#ham{
+    background: white;
+}
+
+.navbar{
+  background: blue;
+}
+
+.navbar a{
+  color: white;
+}
+
+#myh1{
+   color: white;
+    font-size: 90px;
+    text-align: center;
+    font-family: cursive;
+    padding-top: 20px;
+}
+
+#myh3{
+    color: darkturquoise;
+    font-size: 40px;
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+}
+
+ul #list{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+#btnsid #btn1{
+    position: center;
+    border-radius: 20px;
+}
+#btnsid #btn2{
+    position: center;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+#btnsid #btn1:hover{
+    background-color: red;
+    color: white;
+}
+
+#btnsid #btn2:hover{
+    background-color: red;
+    color: white;
+}
+#a1,#a2{
+    color: black;
+}
+
+h2{
+    text-align: center;
+}

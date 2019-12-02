@@ -1,0 +1,48 @@
+#back{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/service.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    padding-top: 70px;
+}
+
+.navbar{
+  background: blue;
+}
+
+.navbar a{
+  color: white;
+}
+
+#ham{
+    background: white;
+}
+
+#head1{
+   color: aliceblue;
+    font-size: 70px;
+    text-align: center;
+    font-family: cursive;
+}
+#head2{
+    color: deepskyblue;
+    font-size: 40px;
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+}
+
+table{
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    color: white;
+    border-radius: 5px;
+    margin-top: 150px;
+}
+th,td{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+tr:nth-of-type(even){
+    background-color: aqua;
+}

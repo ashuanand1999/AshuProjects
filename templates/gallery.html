@@ -1,0 +1,159 @@
+{% load staticfiles %}
+
+<html lang="en" dir="ltr">
+<head>
+    <title>Gallery Page</title>
+    <link href="/static/images/new.png" rel="shortcut icon" />
+    <link rel="stylesheet" href="{% static 'css/gallery.css' %}">
+        <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <!--Js Jquery and other CDNS -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>ashu gallery</title>
+</head>
+<body id="back">
+    <!--navbar code -->
+<nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span id="ham" class="sr-only">Toggle navigation</span>
+        <span id="ham" class="icon-bar"></span>
+        <span id="ham" class="icon-bar"></span>
+        <span id="ham" class="icon-bar"></span>
+        <span id="ham" class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> PANDAY'S</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a href="/home/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home<span class="sr-only">(current)</span></a></li>
+        <li ><a href="/services/">Services</a></li>
+        <li ><a href="/feedback/"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Feedback</a></li>
+        <li ><a href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Gallery</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+  <div class="jumbotron">
+    <h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Our Photo Gallery</h1>
+    <h3>We are happy to share our experiences and memories.</h3>
+  </div>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/cam1.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/cam2.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/cat1.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/cat2.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/cat3.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/cat4.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/honey1.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/honey2.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/honey3.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/honey4.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/honey5.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/honey6.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/image1.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/image2.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/image3.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/image4.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/image6.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/mandap.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/mandap2.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/mandap3.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/marriage1.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/marriage2.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/marriage3.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/marriage4.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="thumbnail"><img src="{% static 'images/marriage5.jpg' %}" style="border: 2px solid black;"></div>
+  </div>
+</div>
+<pre style="color: black; font-size: 20px">
+Developed By Ashutosh Anand                                                          8789675572
+</pre>
+</div>
+</body>
+</html>

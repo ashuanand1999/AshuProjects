@@ -1,0 +1,39 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/feedback.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+#head{
+    color: white;
+}
+
+label{
+    color: red;
+    font-size: 20px;
+}
+
+.navbar{
+  background: blue;
+}
+
+.navbar a{
+  color: white;
+}
+
+#ham{
+    background: white;
+}
+
+#b1{
+    color: red;
+    font-size: 25px;
+    font-family: cursive;
+
+}
+
+.cb1{
+    color: white;
+}

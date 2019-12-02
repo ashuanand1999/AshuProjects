@@ -1,0 +1,41 @@
+.container{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+
+#ham{
+    background: white;
+}
+
+
+#back{
+    background: darkgrey;
+    padding-top: 70px;
+
+}
+
+img{
+    height: 50%;
+    width: 100%;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.navbar{
+  background: blue;
+}
+
+.navbar a{
+  color: white;
+}
+
+
+.container .jumbotron{
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+  background: #14DE7C;
+  color: white;
+  text-align: center;
+}
